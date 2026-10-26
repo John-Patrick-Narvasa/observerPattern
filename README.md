@@ -1,4 +1,4 @@
- Real-time News Subscription Service
+# Real-time News Subscription Service
 
 Background: You're tasked with designing a real-time news subscription service for a media company. The system needs to notify subscribers about breaking news as soon as it's published by the news agency.
 
@@ -30,11 +30,3 @@ Constraints:
 
     The system should be scalable to handle a growing number of subscribers without compromising performance.
     Ensure that the implementation follows object-oriented design principles and promotes loose coupling between the news agency and subscribers.
-
-In your solution you must provide the following in your Github link account:
-
-      Problem statement (description of the problem. Just copy what is stated here.
-      UML Class Diagram
-      Uploaded java codes for the solution.
-
-Upload your GitHub Solution link here.
