@@ -6,15 +6,15 @@ public class Main {
         Subscriber patrick = new Subscriber();
         patrick.setSubscriberName("Patrick");
 
-        Subscriber joshua = new Subscriber();
-        joshua.setSubscriberName("Joshua");
+        Subscriber bbm = new Subscriber();
+        bbm.setSubscriberName("Bubong Marcos");
 
         Subscriber rei = new Subscriber();
-        rei.setSubscriberName("Rei");
+        rei.setSubscriberName("Rene");
 
         List<Subscriber> subscriberList = new ArrayList<>();
         subscriberList.add(patrick);
-        subscriberList.add(joshua);
+        subscriberList.add(bbm);
         subscriberList.add(rei);
 
         NewsAgency newsAgency = new NewsAgency();
@@ -24,6 +24,8 @@ public class Main {
 
         System.out.println("Breaking News Updates!");
         System.out.println(newsAgency.notifySubscriber());
+
+        newsAgency.detach(bbm);
 
         Subscriber vem = new Subscriber();
         vem.setSubscriberName("Vem");
