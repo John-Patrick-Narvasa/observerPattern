@@ -1,21 +1,21 @@
 package observerPattern;
 import java.util.*;
 
-public class Main {
+public class MainNews {
     public static void main(String[] args){
         Subscriber patrick = new Subscriber();
         patrick.setSubscriberName("Patrick");
 
         Subscriber bbm = new Subscriber();
-        bbm.setSubscriberName("Bubong Marcos");
+        bbm.setSubscriberName("BBM");
 
-        Subscriber rei = new Subscriber();
-        rei.setSubscriberName("Rene");
+        Subscriber rene = new Subscriber();
+        rene.setSubscriberName("Rene");
 
         List<Subscriber> subscriberList = new ArrayList<>();
         subscriberList.add(patrick);
         subscriberList.add(bbm);
-        subscriberList.add(rei);
+        subscriberList.add(rene);
 
         NewsAgency newsAgency = new NewsAgency();
         newsAgency.setNewsTitle("Global Tech Breakthrough");
